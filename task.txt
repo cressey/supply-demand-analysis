@@ -1,0 +1,154 @@
+Checking tooling is correct and complete	1
+Cleaning tooling	1
+Checking for surface defects	1
+Correctly applying sealers	1
+Correctly applying release agents	1
+Identifying and checking correct materials	1
+Conditioning materials after storage	1
+Correct handling of unprocessed materials	1
+Cutting materials to shape/orientation	1
+Calculating correct resin/fibre ratios	1
+Using correct weight of resin	1
+Using pattern	2
+Using female tooling	2
+Using male tooling	2
+Using multi-part tooling	2
+Using matched tooling	2
+Using closed tooling	2
+Butt joints	3
+Overlap joints	3
+Staggered joints	3
+Oriented plies  3
+Inverted plies  3
+Balancing plies	3
+Brush Gel coat	4
+Brush resin	4
+Deposition of dry materials	4
+Roller application of resin	4
+Removal of voids and air pockets	4
+Brush/roller consolidation	4
+Deposition of pre-preg materials	4
+Templates	5
+Core materials	5
+Other pre-shaped or chamferred components	5
+Inserts	5
+Spliced components	5
+Peel plies	5
+Bonding pastes	5
+Edge filled parts	5
+Adhesive or resin films	5
+Potting or filling compounds	5
+Producing and nesting of ply templates	6
+Material cutting and kitting	6
+Using loose tooling	6
+Using intensifiers	6
+Using placement jigs	6
+Using vacuum bags	7
+Using warm de-bulk	7
+Integrity checking	8
+Surface bagging	8
+Using envelopes	8
+Using multi-part envelopes	8
+Using internal bag	8
+Using pleats and tucks	8
+Using re-usable fittings	8
+Using re-usable bags	8
+Assemble heated enclosure	9
+Using an oven	9
+Surveying temperature	10
+On sandwich panels	10
+At low temperature cures 30-80degC	10
+Using post curing	10
+As single stage cure	10
+As multi-stage cure	10
+Checking and recording	10
+By touch	11
+Using sound	11
+Visually	11
+Using mechanical testing equipment	11
+Using other NDT methods	11
+Dimensional	12
+Material	12
+Manufacturing	12
+Damage	12
+Cosmetic	12
+Record weight of resin used	13
+Weigh and record finished parts	13
+Check dimensions and fit to drawing	14
+Check materials and parts to specification	14
+Using drawing	15
+Using moulded scribe lines	15
+From templates or jigs	15
+Using cutting wheels/discs	16
+Using saws	16
+Using routers	16
+Using trim jigs	16
+Using blocks and files	17
+Using sanding machine	17
+Using grinder	17
+Freehand	18
+Using jigs	18
+Using counter-bores and counter-sinks	18
+Using hole saws	18
+Using wet sanding	19
+Using cutting or polishing compound	19
+Using rubber block	19
+Using orbital sander	19
+Using polisher	19
+Apply fairing compound	20
+Shape using hand tools	20
+Shape using long boards	20
+Shape using power tools	20
+Check for correct drawing and other information	21
+Interpret drawing and other information correctly	21
+Checking moulding and components are correct	21
+Selecting, checking and using the right equipment	21
+Identifying and protecting mouldings	21
+Determining datum points	21
+Dry fitting	22
+As one-offs	22
+In batches	22
+Using moulded datums	23
+Using tapes and rulers	23
+Using spirit levels	23
+Using laser levels and trackers	23
+Using alignment jigs and fixtures	23
+Using hand tools	24
+Using power tools	24
+Using clamps and cramps	24
+Using lifting and handling equipment	24
+Using temporary fixing and support	24
+With other mechanicla fixings	25
+With adhesives and bonding	25
+Fit brackets and fixtures	26
+Fit trim and edge bands	26
+Fit finishing tapes	26
+Fit labels or decals	26
+Selecting and mixing correct materials	27
+Working with peel plies	27
+Using templates	27
+By abrasion	27
+Cleaning using correct materials	27
+Priming and etching	27
+Surface masking	27
+By shimming and packing	28
+By laying film	28
+Wetting out by brush	28
+Using applicator gun	28
+Using beads and fillets	28
+Using jigs	29
+Using pinning	29
+By clamping or using weights	29
+Using a vacuum bag	29
+In a shaped location	30
+To joggles	30
+To returns	30
+To overlaps	30
+To straps	30
+Selecting and mixing correct materials	31
+Apply bonding materials	31
+Apply bonding tapes	31
+Wet lay-up	32
+Resin Film/Sprint	32
+Pre-preg	32
+Resin Transfer	32

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TableRow
+        android:id="@+id/tableRowLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <ImageButton
+            android:id="@+id/helpButtonLoginPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/help" />
+        
+    </TableRow>
+
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+	    
+	    <TableLayout
+	        android:id="@+id/tableLayout1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	
+	        <TableRow
+	            android:id="@+id/tableRow1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" >
+	
+	            <TextView
+	                android:id="@+id/textView1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/username"
+	                android:layout_weight="1"
+	                android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	            <EditText
+	                android:id="@+id/usernameEdit"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:hint="@string/examplelogin" >
+
+	                <requestFocus />
+	            </EditText>
+	        </TableRow>
+	        <TableRow
+	            android:id="@+id/tableRow2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" >
+	
+	            <TextView
+	                android:id="@+id/textView2"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/password"
+	                android:layout_weight="1"
+	                android:textAppearance="?android:attr/textAppearanceLarge" />
+		            <EditText
+	                android:id="@+id/passwordEdit"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:inputType="textPassword" />
+	
+	        </TableRow>
+	
+	        <TableRow
+	            android:id="@+id/tableRow3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" >
+		            <Button
+	                android:id="@+id/loginBtn"
+	                android:layout_width="200dp"
+	                android:layout_height="wrap_content"
+	                android:text="@string/login"
+	                android:textAppearance="?android:attr/textAppearanceLarge"
+	                android:layout_gravity="center"
+	                android:layout_span="2" />
+	
+	        </TableRow>
+	
+	        <TableRow
+	            android:id="@+id/tableRow4"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" >
+	        </TableRow>
+	    </TableLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+    
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+
+        <RelativeLayout
+            android:id="@+id/tabtopper"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+
+            <ImageButton
+                android:id="@+id/saveButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/save" />
+
+            <TableRow
+                android:id="@+id/tableRowAddSheet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true" >
+
+
+                <ImageButton
+                    android:id="@+id/backButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/back" />
+
+
+                <ImageButton
+                    android:id="@+id/helpButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/help" />
+
+
+                <ImageButton
+                    android:id="@+id/homeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/home" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tableRowAddSheet" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/name"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+                <EditText
+                    android:id="@+id/employeeNameText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <requestFocus />
+                </EditText>
+            </TableRow>
+        </RelativeLayout>
+
+
+	<TabHost
+	    android:id="@android:id/tabhost"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_below="@+id/tabtopper" >
+	
+	    <LinearLayout
+	        android:orientation="vertical"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:padding="5dp">  
+	        <TabWidget
+	            android:id="@android:id/tabs"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" />
+	        <FrameLayout
+	            android:id="@android:id/tabcontent"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:padding="5dp">
+	        
+	        	<LinearLayout 
+				    android:id="@+id/skillsTab"
+				    android:layout_width="match_parent"
+				    android:layout_height="match_parent"
+				    android:gravity="center"
+				    android:orientation="vertical" >
+			
+				    <TableRow
+				        android:id="@+id/tableRow2"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content" >
+				
+				        <TextView
+				            android:id="@+id/addEmployeeSubj"
+				            android:layout_width="190dp"
+				            android:layout_height="wrap_content"
+				            android:text="@string/subjectarea"
+				            android:textAppearance="?android:attr/textAppearanceLarge" />
+				
+				        <Spinner
+				            android:id="@+id/employeeSubjectSpinner"
+				            android:layout_width="match_parent"
+				            android:layout_height="wrap_content" />
+				    </TableRow>
+			
+					<TableRow
+					    android:id="@+id/tableRow3"
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content" >
+					
+					    <TextView
+					        android:id="@+id/addEmployeeSkillGroup"
+					        android:layout_width="190dp"
+					        android:layout_height="wrap_content"
+					        android:text="@string/skillsgroup"
+					        android:textAppearance="?android:attr/textAppearanceLarge" />
+					
+					    <Spinner
+					        android:id="@+id/employeeSkillGroupSpinner"
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content" />
+					</TableRow>
+				
+				
+				
+					<ScrollView
+					    android:id="@+id/scrollView1"
+					    android:layout_width="match_parent"
+					    android:layout_height="match_parent"
+					    android:layout_weight="0.69" >
+					
+					    <LinearLayout
+					        android:id="@+id/linearLayout1"
+					        android:layout_width="match_parent"
+					        android:layout_height="match_parent"
+					        android:orientation="vertical" >
+					
+					        <TextView
+					            android:id="@+id/addEmployeeSkills"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:paddingBottom="10dp"
+					            android:paddingTop="10dp"
+					            android:text="@string/skills"
+					            android:textAppearance="?android:attr/textAppearanceLarge" />
+					
+
+
+
+
+					        <TableLayout
+					            android:id="@+id/addEmployeeCheckboxLayout"
+					            android:layout_width="match_parent"
+					            android:layout_height="wrap_content" >
+
+					        </TableLayout>
+					    </LinearLayout>
+					</ScrollView>
+				</LinearLayout>
+				<LinearLayout 
+				    android:id="@+id/materialsTab"
+				    android:layout_width="match_parent"
+				    android:layout_height="match_parent"
+				    android:gravity="center"
+				    android:orientation="vertical" >
+				
+					<TableRow
+					    android:id="@+id/tableRow3"
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content" >
+				
+					    <TextView
+					        android:id="@+id/materialGroupLabel"
+					        android:layout_width="190dp"
+					        android:layout_height="wrap_content"
+					        android:text="@string/materialgroup"
+					        android:textAppearance="?android:attr/textAppearanceLarge" />
+				
+					    <Spinner
+					        android:id="@+id/materialGroupSpinner"
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content" />
+				
+					</TableRow>
+					
+					<ScrollView
+					    android:id="@+id/scrollView1"
+					    android:layout_width="match_parent"
+					    android:layout_height="match_parent"
+					    android:layout_weight="0.69" >
+					
+					    <LinearLayout
+					        android:id="@+id/linearLayout1"
+					        android:layout_width="match_parent"
+					        android:layout_height="match_parent"
+					        android:orientation="vertical" >
+				
+					        <TextView
+					            android:id="@+id/materialLabel"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:paddingBottom="10dp"
+					            android:paddingTop="10dp"
+					            android:text="@string/material"
+					            android:textAppearance="?android:attr/textAppearanceLarge" />
+				
+
+
+					        <TableLayout
+					            android:id="@+id/addMaterialsCheckboxLayout"
+					            android:layout_width="match_parent"
+					            android:layout_height="wrap_content" >
+				
+					        </TableLayout>
+					    </LinearLayout>
+					</ScrollView>
+				</LinearLayout>
+				<LinearLayout 
+				    android:id="@+id/contextsTab"
+				    android:layout_width="match_parent"
+				    android:layout_height="match_parent"
+				    android:gravity="center"
+				    android:orientation="vertical" >
+				
+					<TableRow
+					    android:id="@+id/tableRow3"
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content" >
+				
+					    <TextView
+					        android:id="@+id/contextGroupLabel"
+					        android:layout_width="190dp"
+					        android:layout_height="wrap_content"
+					        android:text="@string/contextgroup"
+					        android:textAppearance="?android:attr/textAppearanceLarge" />
+				
+					    <Spinner
+					        android:id="@+id/contextGroupSpinner"
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content" />
+				
+					</TableRow>
+				
+					<ScrollView
+					    android:id="@+id/contextsScrollView"
+					    android:layout_width="match_parent"
+					    android:layout_height="match_parent"
+					    android:layout_weight="0.69" >
+					
+					    <LinearLayout
+					        android:id="@+id/linearLayout1"
+					        android:layout_width="match_parent"
+					        android:layout_height="match_parent"
+					        android:orientation="vertical" >
+				
+					        <TextView
+					            android:id="@+id/contextsLabel"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:paddingBottom="10dp"
+					            android:paddingTop="10dp"
+					            android:text="@string/context"
+					            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+					        <TableLayout
+					            android:id="@+id/addContextsCheckboxLayout"
+					            android:layout_width="match_parent"
+					            android:layout_height="wrap_content" >
+				
+					        </TableLayout>
+					    </LinearLayout>
+					</ScrollView>
+				</LinearLayout>
+			</FrameLayout>
+	    </LinearLayout> 
+	</TabHost>
+</RelativeLayout>

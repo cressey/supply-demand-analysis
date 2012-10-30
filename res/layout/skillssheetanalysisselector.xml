@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:id="@+id/tableRowSelectAnalysis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+	
+	    <ImageButton
+	        android:id="@+id/backButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/back" />
+	
+	    <ImageButton
+	        android:id="@+id/helpButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/help" />
+	
+	    <ImageButton
+	        android:id="@+id/homeButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/home" />
+
+    </TableRow>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/tableRowSelectAnalysis"
+        android:layout_centerHorizontal="true" >
+    
+	    <LinearLayout
+	        android:id="@+id/linearLayout1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	
+	        <ScrollView
+	            android:id="@+id/scrollView1"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent" 
+	            android:paddingRight="10dp"
+	            android:layout_weight="1">
+	
+	            <LinearLayout
+	                android:id="@+id/linearLayout2"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent">
+	                <LinearLayout
+			            android:id="@+id/taskSkillCheckboxSpace"
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:orientation="vertical" >
+	
+			            <TextView
+			                android:id="@+id/textView1"
+			                android:layout_width="match_parent"
+			                android:layout_height="wrap_content"
+			                android:text="@string/selectskillsheet"
+			                android:textAppearance="?android:attr/textAppearanceLarge" />
+	        		</LinearLayout>
+	            </LinearLayout>
+	        </ScrollView>
+	
+	        <ScrollView
+	            android:id="@+id/scrollView2"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent" 
+	            android:layout_weight="1">
+	
+	            <LinearLayout
+	                android:id="@+id/linearLayout3"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent">
+	                
+	                <LinearLayout
+			            android:id="@+id/employeeCheckboxSpace"
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:orientation="vertical" >
+	
+			            <TextView
+			                android:id="@+id/textView2"
+			                android:layout_width="match_parent"
+			                android:layout_height="wrap_content"
+			                android:text="@string/selectemployee"
+			                android:textAppearance="?android:attr/textAppearanceLarge" />
+	       			 </LinearLayout>
+	    		</LinearLayout>
+	        </ScrollView>
+	    </LinearLayout>
+    </FrameLayout>
+    <LinearLayout 
+      	android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true" 
+		android:orientation="vertical">
+        
+		 <Button
+		     android:id="@+id/selectSkillsGoButton"
+		     android:layout_width="match_parent"
+		     android:layout_height="0dp"
+		     android:layout_gravity="center"
+		     android:layout_weight="1"
+		     android:text="@string/go" 
+		     android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+   </LinearLayout>
+</RelativeLayout>

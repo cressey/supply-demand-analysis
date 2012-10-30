@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vjs.supplydemandanalysis"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:icon="@drawable/logo"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".activities.SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.HomeActivity"/>
+        <activity android:name=".activities.AdminActivity"/>
+        <activity android:name=".activities.AdminEmployeeActivity" />
+        <activity android:name=".activities.EmployeeTabHostActivity" />
+        <activity android:name=".activities.AddEmployeeActivity" />
+        <activity android:name=".activities.AdminSkillsSheetActivity" />
+        <activity android:name=".activities.ViewEmployeeActivity" />
+        <activity android:name=".activities.ViewSkillsSheetActivity" />
+        <activity android:name=".activities.AnalysisActivity" />
+        <activity android:name=".activities.MyAccountActivity" />
+        <activity android:name=".activities.EmployeeSupplyActivity" />
+        <activity android:name=".activities.SkillsTabActivity"/>
+        <activity android:name=".activities.MaterialsTabActivity" />
+        <activity android:name=".activities.ContextsTabActivity" />
+        <activity android:name=".activities.SkillsSheetTabHostActivity" />
+        <activity android:name=".activities.AddSkillsSheetActivity" />
+        <activity android:name="com.vjs.supplydemandanalysis.activities.SelectCollectionToAnalyseActivity" />
+        
+    </application>
+
+</manifest>

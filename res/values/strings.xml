@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SupplyDemandAnalysis</string>
+    <string name="admin">Administration</string>
+    <string name="analysis">Analysis</string>
+    <string name="tasks">Task Sheet Administration</string>
+    <string name="staff">Staff Administration</string>
+    <string name="addstaff">Add Employee</string>
+    <string name="editstaff">Edit</string>
+    <string name="deletestaff">Delete</string>
+    <string name="addsheet">Create Task Sheet</string>
+    <string name="editsheet">Edit Task Sheet</string>
+    <string name="deletesheet">Remove Task Sheet</string>
+    <string name="id">ID</string>
+    <string name="firstname">First Name</string>
+    <string name="surname">Surname</string>
+    <string name="department">Department</string>
+    <string name="home">Home</string>
+    <string name="saveemployee">Save</string>
+    <string name="blank"></string>
+    <string name="name">"Skill Sheet Name:"</string>
+    <string name="employeename">&quot;Employee Id: &quot;</string>
+    <string name="back">Back</string>
+    <string name="selectskillsheet">Select Skill Sheet To View</string>
+    <string name="go">Go</string>
+    <string name="selectemployee">Select Employee</string>
+    <string name="subject">"Subject: "</string>
+    <string name="skillssheet">"Skills Sheet: "</string>
+    <string name="skillsgroup">"Skill Group Area: "</string>
+    <string name="selectsubject">"Select Subject Area: "</string>
+    <string name="subjectarea">"Subject Area: "</string>
+    <string name="skills">Skills:</string>
+    <string name="username">"Username: "</string>
+    <string name="password">"Password: "</string>
+    <string name="login">Login</string>
+    <string name="accountSettings">Account Settings</string>
+    <string name="myaccount">My Account</string>
+    <string name="loggedin">Logged in as:</string>
+    <string name="logout">Logout</string>
+    <string name="losedatabasedetails">If you log out, the database will lose all of its stored skills, groups and subjects. Logging in again will download the latest version.</string>
+    <string name="examplelogin">user.one@company.com</string>
+    <string name="test">You\'re looking at lots of employee information</string>
+    <string name="selectedskillssheets">Selected Skills Sheets</string>
+    <string name="materialgroup">"Material Group: "</string>
+    <string name="material">Materials:</string>
+    <string name="context">"Contexts: "</string>
+    <string name="contextgroup">"Context Group: "</string>
+
+</resources>
