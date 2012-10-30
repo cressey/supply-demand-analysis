@@ -33,7 +33,7 @@ import com.vjs.supplydemandanalysis.database.LoginDAO;
 
 public class HomeActivity extends SuperActivity implements OnClickListener {
 	LoginDAO loginDao = new LoginDAO(this);
-	String loginUrl = "192.168.0.3"; // "localhost";
+	String loginUrl = "sda.freeiz.com/";// "192.168.0.3"; // "localhost";
 	EditText username;
 	EditText password;
 
@@ -152,7 +152,7 @@ public class HomeActivity extends SuperActivity implements OnClickListener {
 			HttpClient client = new DefaultHttpClient();
 			HttpGet request = new HttpGet();
 			request.setURI(new URI("http://" + loginUrl
-					+ "/sda/getDbDetails.php?username=" + user + "&password="
+					+ "/getDbDetails.php?username=" + user + "&password="
 					+ pass + "&dbVersion=" + dbVersion));
 			HttpResponse response = client.execute(request);
 			in = new BufferedReader(new InputStreamReader(response.getEntity()
